@@ -6,7 +6,7 @@
 <p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=zacniewski" alt="zacniewski" /></a> </p>
 
 - 💬 Ask me about **OpenCV, Django**
-- 🌱 I’m currently learning **React**
+- 🌱 I’m currently learning **Alpine.js**
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
