@@ -26,7 +26,7 @@
 <h3 style="text-align: center;">📊 Statistics</h3>
 
 <!-- Use correct Markdown and remove line breaks from URLs -->
-<div style="text-align: center;">
+<div style="margin: auto;">
   <a href="https://github.com/zacniewski">
     <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=zacniewski&theme=default" height="180em" />
     <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=zacniewski&theme=default" height="180em" />
