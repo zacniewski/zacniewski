@@ -1,4 +1,4 @@
-<h1 style="text-align: center;">Hi 👋, I'm Artur</h1>
+<h3 style="text-align: center;"> Hi, I'm Artur</h3>
 <h3 style="text-align: center;">Developer and educator from Poland</h3>
 
 <p style="text-align: left;"> <img src="https://komarev.com/ghpvc/?username=zacniewski&label=Profile%20views&color=0e75b6&style=flat" alt="zacniewski" /> </p>
