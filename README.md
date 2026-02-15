@@ -28,11 +28,11 @@
 <!-- Use correct Markdown and remove line breaks from URLs -->
 <div style="text-align: center;">
   <a href="https://github.com/zacniewski">
-    <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=zacniewski&theme=solarized" height="180em" />
-    <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=zacniewski&theme=solarized" height="180em" />
-    <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=zacniewski&theme=solarized" height="180em" />
-    <img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=zacniewski&theme=solarized" height="180em" />
-    <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=zacniewski&theme=solarized" height="180em" />
+    <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=zacniewski&theme=default" height="180em" />
+    <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=zacniewski&theme=default" height="180em" />
+    <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=zacniewski&theme=default" height="180em" />
+    <img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=zacniewski&theme=default" height="180em" />
+    <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=zacniewski&theme=default" height="180em" />
   </a>
 </div>  
 
