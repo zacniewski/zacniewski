@@ -2,17 +2,6 @@
 
 <p style="text-align: left;"> <img src="https://komarev.com/ghpvc/?username=zacniewski&label=Profile%20views&color=0e75b6&style=flat" alt="zacniewski" /> </p>
 
-----  
-
-
-- 💬 Ask me about **Django, OpenCV**
-- 🌱 I’m currently learning **K8s**  
-
-
-----   
-
-
-
 <h3 style="text-align: left;"> Connect with me:</h3>
 <p style="text-align: left;">
   <a href="https://linkedin.com/in/artur-zacniewski-29436928" target="blank"><img style="text-align: center;" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="artur-zacniewski-29436928" height="30" width="40" /></a>
