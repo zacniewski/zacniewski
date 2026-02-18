@@ -8,6 +8,7 @@
   <a href="https://stackoverflow.com/users/2090474" target="blank"><img style="text-align: center;" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/stack-overflow.svg" alt="2090474" height="30" width="40" /></a>
 </p>  
 
+
 ----  
 
 
@@ -25,6 +26,11 @@
   </a>
 </div>  
 
+
+----
+
+
+<h3 align="center">📊 Languages used in work</h3>
 
 <!--START_SECTION:waka-->
 
