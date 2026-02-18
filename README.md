@@ -30,7 +30,7 @@
 ----
 
 
-<h3 align="center">📊 Languages used in work</h3>
+<h3 align="center">📊 Languages recently used at work</h3>
 
 <!--START_SECTION:waka-->
 
