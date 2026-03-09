@@ -6,21 +6,9 @@
 
 
 https://github.com/user-attachments/assets/ae4104ee-f300-48da-8316-2efe0151515e
-
-
-
-<!-- Video BG Init -->
-                <!-- Please replace the video files in the folder "video" with your own videos -->
-                <div class="bg-video-wrapper">
-                    <video class="bg-video" preload="auto" autoplay loop muted playsinline data-object-fit="cover">
-                        <source src="video/video.webm" type="video/webm">
-                        <source src="video/video.ogg" type="video/ogg">
-                        <source src="video/video.mp4" type="video/mp4">
-                    </video>
-                    <div class="bg-video-overlay bg-dark-alfa-30"></div>
-                </div>
-                <a href="#" role="button" class="bg-video-button-muted"><i class="fa fa-volume-off"></i></a>
-                <!-- End Video BG Init -->  
+<videocontrols>
+<sourcesrc="video/video.mp4"type="video/mp4">
+</video>
 
 
 <h3 style="text-align: left;"> Connect with me:</h3>
