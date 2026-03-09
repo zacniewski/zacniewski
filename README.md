@@ -1,6 +1,23 @@
 <h3 style="text-align: center;"> Hi, I'm Artur – developer and educator from Poland</h3>
 
-<p style="text-align: left;"> <img src="https://komarev.com/ghpvc/?username=zacniewski&label=Profile%20views&color=0e75b6&style=flat" alt="zacniewski" /> </p>
+<p style="text-align: left;"> 
+<img src="https://komarev.com/ghpvc/?username=zacniewski&label=Profile%20views&color=0e75b6&style=flat" alt="zacniewski" /> 
+</p>  
+
+
+<!-- Video BG Init -->
+                <!-- Please replace the video files in the folder "video" with your own videos -->
+                <div class="bg-video-wrapper">
+                    <video class="bg-video" preload="auto" autoplay loop muted playsinline data-object-fit="cover">
+                        <source src="video/video.webm" type="video/webm">
+                        <source src="video/video.ogg" type="video/ogg">
+                        <source src="video/video.mp4" type="video/mp4">
+                    </video>
+                    <div class="bg-video-overlay bg-dark-alfa-30"></div>
+                </div>
+                <a href="#" role="button" class="bg-video-button-muted"><i class="fa fa-volume-off"></i></a>
+                <!-- End Video BG Init -->  
+
 
 <h3 style="text-align: left;"> Connect with me:</h3>
 <p style="text-align: left;">
