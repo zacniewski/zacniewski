@@ -5,7 +5,7 @@
 </p>  
 
 
-<video src="https://github.com/user-attachments/assets/ae4104ee-f300-48da-8316-2efe0151515e"></video>
+<video controls autoplay src="https://github.com/user-attachments/assets/ae4104ee-f300-48da-8316-2efe0151515e"></video>
   
 
 <h3 style="text-align: left;"> Connect with me:</h3>
