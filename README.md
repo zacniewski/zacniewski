@@ -8,10 +8,10 @@
 https://github.com/user-attachments/assets/ae4104ee-f300-48da-8316-2efe0151515e  
 
 
-<videocontrols>
-<sourcesrc="video/video.mp4"type="video/mp4">
-</video>
-
+<figure class="video_container">
+  <iframe src="video/video.mp4" frameborder="0" allowfullscreen="true"> 
+</iframe>
+</figure>
 
 <h3 style="text-align: left;"> Connect with me:</h3>
 <p style="text-align: left;">
