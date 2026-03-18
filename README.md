@@ -18,6 +18,7 @@
         <h3>Connect with me:</h3>
         <a href="https://linkedin.com/in/artur-zacniewski-29436928" target="blank"><img src="assets/linked-in-alt.svg" alt="artur-zacniewski-29436928" height="40" width="40" /></a>&nbsp;&nbsp;
         <a href="https://www.researchgate.net/profile/Artur_Zacniewski" target="blank"><img src="assets/researchgate-svgrepo-com.svg" alt="2090474" height="40" width="40" /></a>
+        <a href="https://www.kaggle.com/zacniewski" target="blank"><img src="assets/kaggle-icon.svg" alt="2090474" height="40" width="40" /></a>
       </td>
     </tr>
   </table>
