@@ -38,7 +38,7 @@
   <img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=zacniewski&theme=default" height="180em" />
   <br/>
   <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=zacniewski&theme=default" height="180em" />
-  <img src="https://github-readme-streak-stats.herokuapp.com?user=zacniewski&theme=graywhite" alt="Streak stats" height="180em" />
+  <img src="https://streak-stats.demolab.com?user=zacniewski" alt="Streak stats" height="180em" />
 </p>
 
 
