@@ -70,11 +70,8 @@
 ----
 
 
-<h3 align="center">📊 Activity Statistics</h3>
+<h3 align="center">📊 Recently used languages</h3>
 
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/wakatime?username=zacniewski&layout=compact&theme=default&langs_count=10&hide_title=true&hide_border=true" alt="WakaTime Stats" />
-</p>
 
 <!--START_SECTION:waka-->
 
