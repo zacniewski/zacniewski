@@ -77,9 +77,6 @@
 </p>
 
 <!--START_SECTION:waka-->
-<details>
-  <summary align="center"><b>Detailed Languages Breakdown</b></summary>
-  <p align="center">
 
 ```txt
 From: 14 February 2026 - To: 26 March 2026
@@ -102,8 +99,5 @@ Text                       31 mins               ▒░░░░░░░░░�
 .env file                  11 mins               ░░░░░░░░░░░░░░░░░░░░░░░░░   00.34 %
 DockerIgnore file          8 mins                ░░░░░░░░░░░░░░░░░░░░░░░░░   00.25 %
 ```
-
-  </p>
-</details>
 
 <!--END_SECTION:waka-->
