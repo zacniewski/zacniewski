@@ -54,7 +54,7 @@
 <h3 align="center">📊 Statistics</h3>
 
 <p align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=zacniewski&theme=default" height="145" alt="stats"/>
+  <img src="https://github-readme-stats-sooty-sigma-79.vercel.app/api/cards/stats?username=zacniewski&theme=default" height="145" alt="stats"/>
   <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=zacniewski&theme=default" height="145" alt="languages-by-commit"/>
   <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=zacniewski&theme=default" height="145" alt="languages-by-repo"/>
 </p>
