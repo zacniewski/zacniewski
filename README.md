@@ -54,7 +54,7 @@
 <h3 align="center">📊 Statistics</h3>
 
 <p align="center">
-  <img src="https://github-readme-stats-sooty-sigma-79.vercel.app/api/cards/stats?username=zacniewski&theme=default" height="145" alt="stats"/>
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=zacniewski&theme=default" height="145" alt="stats"/>
   <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=zacniewski&theme=default" height="145" alt="languages-by-commit"/>
   <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=zacniewski&theme=default" height="145" alt="languages-by-repo"/>
 </p>
@@ -76,23 +76,23 @@
 <!--START_SECTION:waka-->
 
 ```txt
-From: 14 February 2026 - To: 30 March 2026
+From: 14 February 2026 - To: 29 March 2026
 
-Total Time: 61 hrs 44 mins
+Total Time: 60 hrs 24 mins
 
-Markdown                   26 hrs 40 mins        ██████████▓░░░░░░░░░░░░░░   43.11 %
-HTML                       8 hrs 57 mins         ███▓░░░░░░░░░░░░░░░░░░░░░   14.47 %
-Python                     7 hrs 39 mins         ███░░░░░░░░░░░░░░░░░░░░░░   12.37 %
-YAML                       6 hrs 44 mins         ██▓░░░░░░░░░░░░░░░░░░░░░░   10.90 %
-Docker                     3 hrs 46 mins         █▓░░░░░░░░░░░░░░░░░░░░░░░   06.10 %
-SQL                        1 hr 25 mins          ▓░░░░░░░░░░░░░░░░░░░░░░░░   02.31 %
-JSON                       1 hr 9 mins           ▒░░░░░░░░░░░░░░░░░░░░░░░░   01.89 %
-Bash                       59 mins               ▒░░░░░░░░░░░░░░░░░░░░░░░░   01.60 %
-TOML                       58 mins               ▒░░░░░░░░░░░░░░░░░░░░░░░░   01.56 %
-GitIgnore file             58 mins               ▒░░░░░░░░░░░░░░░░░░░░░░░░   01.56 %
-Java                       34 mins               ▒░░░░░░░░░░░░░░░░░░░░░░░░   00.94 %
-JavaScript                 32 mins               ▒░░░░░░░░░░░░░░░░░░░░░░░░   00.87 %
-Text                       31 mins               ▒░░░░░░░░░░░░░░░░░░░░░░░░   00.85 %
+Markdown                   25 hrs 39 mins        ██████████▓░░░░░░░░░░░░░░   42.40 %
+HTML                       8 hrs 41 mins         ███▓░░░░░░░░░░░░░░░░░░░░░   14.35 %
+Python                     7 hrs 39 mins         ███░░░░░░░░░░░░░░░░░░░░░░   12.65 %
+YAML                       6 hrs 44 mins         ██▓░░░░░░░░░░░░░░░░░░░░░░   11.14 %
+Docker                     3 hrs 46 mins         █▓░░░░░░░░░░░░░░░░░░░░░░░   06.23 %
+SQL                        1 hr 25 mins          ▓░░░░░░░░░░░░░░░░░░░░░░░░   02.36 %
+JSON                       1 hr 9 mins           ▒░░░░░░░░░░░░░░░░░░░░░░░░   01.93 %
+Bash                       59 mins               ▒░░░░░░░░░░░░░░░░░░░░░░░░   01.64 %
+TOML                       58 mins               ▒░░░░░░░░░░░░░░░░░░░░░░░░   01.60 %
+GitIgnore file             58 mins               ▒░░░░░░░░░░░░░░░░░░░░░░░░   01.60 %
+Java                       34 mins               ▒░░░░░░░░░░░░░░░░░░░░░░░░   00.96 %
+JavaScript                 32 mins               ▒░░░░░░░░░░░░░░░░░░░░░░░░   00.89 %
+Text                       31 mins               ▒░░░░░░░░░░░░░░░░░░░░░░░░   00.87 %
 .env file                  11 mins               ░░░░░░░░░░░░░░░░░░░░░░░░░   00.31 %
 DockerIgnore file          8 mins                ░░░░░░░░░░░░░░░░░░░░░░░░░   00.24 %
 ```
