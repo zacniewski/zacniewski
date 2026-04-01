@@ -64,7 +64,7 @@
 </p>
 <p align="center">
   <img src="https://github-readme-stats-zacniewski8897-iinguw4v.leapcell.dev/api?username=zacniewski&theme=default" alt="GitHub Stats" height="165" loading="lazy" />
-  <img src="https://streak-stats.demolab.com?user=zacniewski" alt="Streak stats" height="165" />
+  <img src="https://github-readme-streak-stats.herokuapp.com?user=zacniewski" alt="Streak stats" height="165" />
 </p>
 
 ----
