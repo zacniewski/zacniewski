@@ -54,20 +54,20 @@
 <h3 align="center">📊 Statistics</h3>
 
 <div align="center">
-  <table style="border: none; border-collapse: collapse;" cellspacing="0" cellpadding="0">
-    <tr style="border: none;">
-      <td style="border: none;">
+  <table style="border: none; border-collapse: collapse; border-width: 0px;" border="0" cellspacing="0" cellpadding="0">
+    <tr style="border: none; border-width: 0px;">
+      <td style="border: none; border-width: 0px;">
         <img src="https://github-readme-stats-zacniewski8897-iinguw4v.leapcell.dev/api?username=zacniewski&theme=default&custom_title=Stats" alt="GitHub Stats" height="165" loading="lazy" />
       </td>
-      <td style="border: none;">
+      <td style="border: none; border-width: 0px;">
         <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=zacniewski&theme=default" height="165" alt="languages-by-commit"/>
       </td>
     </tr>
-    <tr style="border: none;">
-      <td style="border: none;">
+    <tr style="border: none; border-width: 0px;">
+      <td style="border: none; border-width: 0px;">
         <img src="https://github-readme-streak-stats.herokuapp.com?user=zacniewski" alt="Streak stats" height="165" />
       </td>
-      <td style="border: none;">
+      <td style="border: none; border-width: 0px;">
         <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=zacniewski&theme=default" height="165" alt="languages-by-repo"/>
       </td>
     </tr>
