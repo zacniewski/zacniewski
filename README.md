@@ -53,19 +53,26 @@
 
 <h3 align="center">📊 Statistics</h3>
 
-<p align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=zacniewski&theme=default" height="145" alt="stats"/>
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=zacniewski&theme=default" height="145" alt="languages-by-commit"/>
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=zacniewski&theme=default" height="145" alt="languages-by-repo"/>
-</p>
-<p align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=zacniewski&theme=default&utcOffset=2" height="145" alt="productive-time"/>
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=zacniewski&theme=default" height="145" alt="profile-details"/>
-</p>
-<p align="center">
-  <img src="https://github-readme-stats-zacniewski8897-iinguw4v.leapcell.dev/api?username=zacniewski&theme=default" alt="GitHub Stats" height="165" loading="lazy" />
-  <img src="https://github-readme-streak-stats.herokuapp.com?user=zacniewski" alt="Streak stats" height="165" />
-</p>
+<div align="center">
+  <table border="0" cellspacing="0" cellpadding="0">
+    <tr>
+      <td>
+        <img src="https://github-readme-stats-zacniewski8897-iinguw4v.leapcell.dev/api?username=zacniewski&theme=default&custom_title=GitHub Stats" alt="GitHub Stats" height="165" loading="lazy" />
+      </td>
+      <td>
+        <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=zacniewski&theme=default" height="165" alt="languages-by-commit"/>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <img src="https://github-readme-streak-stats.herokuapp.com?user=zacniewski" alt="Streak stats" height="165" />
+      </td>
+      <td>
+        <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=zacniewski&theme=default" height="165" alt="languages-by-repo"/>
+      </td>
+    </tr>
+  </table>
+</div>
 
 ----
 
