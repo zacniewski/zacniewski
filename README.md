@@ -63,7 +63,7 @@
   <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=zacniewski&theme=default" height="145" alt="profile-details"/>
 </p>-->
 <p align="center">
-  <img src="https://github-readme-stats-zacniewski8897-iinguw4v.leapcell.dev/api?username=zacniewski&theme=default&custom_title=Github stats" alt="GitHub Stats" height="165" loading="lazy" />
+  <img src="https://github-readme-stats-zacniewski8897-iinguw4v.leapcell.dev/api?username=zacniewski&theme=default&custom_title='Github stats'" alt="GitHub Stats" height="165" loading="lazy" />
   <img src="https://github-readme-streak-stats.herokuapp.com?user=zacniewski" alt="Streak stats" height="165" />
 </p>
 
