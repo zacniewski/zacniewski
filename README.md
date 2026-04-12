@@ -58,10 +58,6 @@
   <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=zacniewski&theme=default" height="145" alt="languages-by-commit"/>
   <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=zacniewski&theme=default" height="145" alt="languages-by-repo"/>
 </p>
-<!--<p align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=zacniewski&theme=default&utcOffset=2" height="145" alt="productive-time"/>
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=zacniewski&theme=default" height="145" alt="profile-details"/>
-</p>-->
 <p align="center">
   <img src="https://github-readme-stats-zacniewski8897-iinguw4v.leapcell.dev/api?username=zacniewski&theme=default&custom_title=Github_stats" alt="GitHub Stats" height="165" loading="lazy" />
   <img src="https://github-readme-streak-stats.herokuapp.com?user=zacniewski" alt="Streak stats" height="165" />
