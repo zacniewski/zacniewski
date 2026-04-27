@@ -59,7 +59,7 @@
   <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=zacniewski&theme=default" height="145" alt="languages-by-repo"/>
 </p>
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=zacniewski/api?username=zacniewski&theme=default&custom_title=Github_stats" alt="GitHub Stats" height="165" loading="lazy" />
+  <img src="https://github-readme-stats.vercel.app/api?username=zacniewski&theme=default&custom_title=Github_stats" alt="GitHub Stats" height="165" loading="lazy" />
   <img src="https://github-readme-streak-stats.herokuapp.com?user=zacniewski" alt="Streak stats" height="165" />
 </p>
 
