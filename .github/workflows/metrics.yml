@@ -11,13 +11,14 @@ jobs:
     permissions:
       contents: write
     steps:
-      - uses: lowlighter/metrics@latest
+      - uses: lowlighter/metrics@master
         with:
           # Your GitHub token
           # The following scopes are required:
           #  - public_repo (default)
           #  - read:user (default)
           #  - read:org (default)
+          #  - repo (optional, for private repositories and better habits analysis)
           token: ${{ secrets.METRICS_TOKEN }}
 
           # Options
@@ -29,7 +30,7 @@ jobs:
           plugin_languages_analysis_timeout: 15
           plugin_languages_categories: markup, programming
           plugin_languages_colors: github
-          plugin_languages_limit: 8
+          plugin_languages_limit: 15
           plugin_languages_recent_categories: markup, programming
           plugin_languages_recent_days: 14
           plugin_languages_recent_load: 300
@@ -40,4 +41,5 @@ jobs:
           plugin_habits_days: 14
           plugin_habits_facts: yes
           plugin_habits_charts: yes
+          plugin_habits_trim: yes
           plugin_lines: yes
