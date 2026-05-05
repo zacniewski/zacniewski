@@ -63,6 +63,10 @@
   <img src="https://github-readme-streak-stats.herokuapp.com?user=zacniewski" alt="Streak stats" height="165" />
 </p>
 
+<p align="center">
+  <img src="github-metrics.svg" alt="Metrics" width="100%" />
+</p>
+
 ----
 
 <h3 align="center">📊 Recently used languages</h3>
