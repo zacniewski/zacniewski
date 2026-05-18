@@ -70,20 +70,20 @@
 <!--START_SECTION:waka-->
 
 ```txt
-From: 14 February 2026 - To: 16 May 2026
+From: 14 February 2026 - To: 17 May 2026
 
-Total Time: 115 hrs 38 mins
+Total Time: 115 hrs 41 mins
 
-Markdown                   49 hrs 43 mins        ██████████▓░░░░░░░░░░░░░░   42.94 %
+Markdown                   49 hrs 43 mins        ██████████▓░░░░░░░░░░░░░░   42.92 %
 Python                     24 hrs 9 mins         █████▒░░░░░░░░░░░░░░░░░░░   20.86 %
-HTML                       13 hrs 43 mins        ███░░░░░░░░░░░░░░░░░░░░░░   11.86 %
-YAML                       8 hrs 57 mins         ██░░░░░░░░░░░░░░░░░░░░░░░   07.74 %
+HTML                       13 hrs 46 mins        ███░░░░░░░░░░░░░░░░░░░░░░   11.90 %
+YAML                       8 hrs 57 mins         ██░░░░░░░░░░░░░░░░░░░░░░░   07.73 %
 Docker                     3 hrs 59 mins         █░░░░░░░░░░░░░░░░░░░░░░░░   03.45 %
 SQL                        3 hrs 33 mins         ▓░░░░░░░░░░░░░░░░░░░░░░░░   03.07 %
 GitIgnore file             3 hrs 14 mins         ▓░░░░░░░░░░░░░░░░░░░░░░░░   02.80 %
 Bash                       1 hr 36 mins          ▒░░░░░░░░░░░░░░░░░░░░░░░░   01.38 %
 JSON                       1 hr 25 mins          ▒░░░░░░░░░░░░░░░░░░░░░░░░   01.24 %
-Text                       1 hr 21 mins          ▒░░░░░░░░░░░░░░░░░░░░░░░░   01.18 %
+Text                       1 hr 21 mins          ▒░░░░░░░░░░░░░░░░░░░░░░░░   01.17 %
 TOML                       1 hr 2 mins           ▒░░░░░░░░░░░░░░░░░░░░░░░░   00.91 %
 JavaScript                 51 mins               ▒░░░░░░░░░░░░░░░░░░░░░░░░   00.74 %
 Java                       36 mins               ░░░░░░░░░░░░░░░░░░░░░░░░░   00.53 %
