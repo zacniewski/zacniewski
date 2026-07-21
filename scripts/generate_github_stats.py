@@ -50,7 +50,7 @@ def render_card(title: str, rows: list[tuple[str, str]], width: int = 460, heigh
     for i, (label, value) in enumerate(rows):
         y = line_start + i * line_step
         row_svg.append(
-            f'<text x="24" y="{y}" font-size="14" fill="#374151">{escape_xml(label)}</text>'
+            f'<text x="24" y="{y}" font-size="18" fill="#374151">{escape_xml(label)}</text>'
             f'<text x="{width - 24}" y="{y}" font-size="14" text-anchor="end" fill="#111827">{escape_xml(value)}</text>'
         )
 
