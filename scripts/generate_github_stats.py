@@ -50,19 +50,19 @@ def render_card(title: str, rows: list[tuple[str, str]], width: int = 460, heigh
     for i, (label, value) in enumerate(rows):
         y = line_start + i * line_step
         row_svg.append(
-            f'<text x="24" y="{y}" font-size="14" fill="#c9d1d9">{escape_xml(label)}</text>'
-            f'<text x="{width - 24}" y="{y}" font-size="14" text-anchor="end" fill="#f0f6fc">{escape_xml(value)}</text>'
+            f'<text x="24" y="{y}" font-size="14" fill="#374151">{escape_xml(label)}</text>'
+            f'<text x="{width - 24}" y="{y}" font-size="14" text-anchor="end" fill="#111827">{escape_xml(value)}</text>'
         )
 
     return f"""<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"{width}\" height=\"{height}\" viewBox=\"0 0 {width} {height}\" role=\"img\" aria-label=\"{escape_xml(title)}\">
   <defs>
     <linearGradient id=\"bg\" x1=\"0\" y1=\"0\" x2=\"1\" y2=\"1\">
-      <stop offset=\"0%\" stop-color=\"#0d1117\"/>
-      <stop offset=\"100%\" stop-color=\"#161b22\"/>
+      <stop offset=\"0%\" stop-color=\"#ffffff\"/>
+      <stop offset=\"100%\" stop-color=\"#f3f4f6\"/>
     </linearGradient>
   </defs>
-  <rect width=\"100%\" height=\"100%\" rx=\"14\" fill=\"url(#bg)\" stroke=\"#30363d\"/>
-  <text x=\"24\" y=\"38\" font-size=\"18\" font-weight=\"700\" fill=\"#58a6ff\">{escape_xml(title)}</text>
+  <rect width=\"100%\" height=\"100%\" rx=\"14\" fill=\"url(#bg)\" stroke=\"#d1d5db\"/>
+  <text x=\"24\" y=\"38\" font-size=\"18\" font-weight=\"700\" fill=\"#1f2937\">{escape_xml(title)}</text>
   {''.join(row_svg)}
 </svg>
 """

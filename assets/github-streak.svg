@@ -1,11 +1,11 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="460" height="200" viewBox="0 0 460 200" role="img" aria-label="GitHub Streak">
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#0d1117"/>
-      <stop offset="100%" stop-color="#161b22"/>
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="100%" stop-color="#f3f4f6"/>
     </linearGradient>
   </defs>
-  <rect width="100%" height="100%" rx="14" fill="url(#bg)" stroke="#30363d"/>
-  <text x="24" y="38" font-size="18" font-weight="700" fill="#58a6ff">GitHub Streak</text>
-  <text x="24" y="68" font-size="14" fill="#c9d1d9">Current streak</text><text x="436" y="68" font-size="14" text-anchor="end" fill="#f0f6fc">6 days</text><text x="24" y="94" font-size="14" fill="#c9d1d9">Longest streak</text><text x="436" y="94" font-size="14" text-anchor="end" fill="#f0f6fc">56 days</text><text x="24" y="120" font-size="14" fill="#c9d1d9">Contributions (year)</text><text x="436" y="120" font-size="14" text-anchor="end" fill="#f0f6fc">1200</text><text x="24" y="146" font-size="14" fill="#c9d1d9">Last contribution</text><text x="436" y="146" font-size="14" text-anchor="end" fill="#f0f6fc">2026-07-21</text><text x="24" y="172" font-size="14" fill="#c9d1d9">Updated</text><text x="436" y="172" font-size="14" text-anchor="end" fill="#f0f6fc">2026-07-21 08:47 UTC</text>
+  <rect width="100%" height="100%" rx="14" fill="url(#bg)" stroke="#d1d5db"/>
+  <text x="24" y="38" font-size="18" font-weight="700" fill="#1f2937">GitHub Streak</text>
+  <text x="24" y="68" font-size="14" fill="#374151">Current streak</text><text x="436" y="68" font-size="14" text-anchor="end" fill="#111827">n/a</text><text x="24" y="94" font-size="14" fill="#374151">Longest streak</text><text x="436" y="94" font-size="14" text-anchor="end" fill="#111827">n/a</text><text x="24" y="120" font-size="14" fill="#374151">Contributions (year)</text><text x="436" y="120" font-size="14" text-anchor="end" fill="#111827">n/a</text><text x="24" y="146" font-size="14" fill="#374151">Last contribution</text><text x="436" y="146" font-size="14" text-anchor="end" fill="#111827">n/a</text><text x="24" y="172" font-size="14" fill="#374151">Updated</text><text x="436" y="172" font-size="14" text-anchor="end" fill="#111827">2026-07-21 08:49 UTC</text>
 </svg>
