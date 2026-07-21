@@ -51,7 +51,7 @@ def render_card(title: str, rows: list[tuple[str, str]], width: int = 460, heigh
         y = line_start + i * line_step
         row_svg.append(
             f'<text x="24" y="{y}" font-size="18" fill="#374151">{escape_xml(label)}</text>'
-            f'<text x="{width - 24}" y="{y}" font-size="14" text-anchor="end" fill="#111827">{escape_xml(value)}</text>'
+            f'<text x="{width - 24}" y="{y}" font-size="18" text-anchor="end" fill="#111827">{escape_xml(value)}</text>'
         )
 
     return f"""<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"{width}\" height=\"{height}\" viewBox=\"0 0 {width} {height}\" role=\"img\" aria-label=\"{escape_xml(title)}\">
