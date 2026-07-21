@@ -26,12 +26,6 @@ jobs:
           GITHUB_USERNAME: zacniewski
         run: python scripts/generate_github_stats.py
 
-      - name: Generate streak card
-        env:
-          GITHUB_USERNAME: zacniewski
-        run: |
-          curl -fsSL "https://github-readme-streak-stats.herokuapp.com?user=${GITHUB_USERNAME}" -o assets/github-streak.svg
-
       - name: Commit generated cards
         run: |
           if git diff --quiet -- assets/github-stats.svg assets/github-languages.svg assets/github-streak.svg; then

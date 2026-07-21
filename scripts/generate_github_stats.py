@@ -68,6 +68,43 @@ def render_card(title: str, rows: list[tuple[str, str]], width: int = 460, heigh
 """
 
 
+def calculate_streaks(contribution_days: list[dict]) -> tuple[int, int, str]:
+    today = datetime.now(timezone.utc).date()
+    parsed_days = []
+
+    for day in contribution_days:
+        day_date = datetime.strptime(day["date"], "%Y-%m-%d").date()
+        if day_date <= today:
+            parsed_days.append((day_date, day["contributionCount"]))
+
+    if not parsed_days:
+        return 0, 0, "n/a"
+
+    parsed_days.sort(key=lambda item: item[0])
+
+    longest_streak = 0
+    running = 0
+    last_contribution_date = "n/a"
+    for day_date, count in parsed_days:
+        if count > 0:
+            running += 1
+            longest_streak = max(longest_streak, running)
+            last_contribution_date = day_date.isoformat()
+        else:
+            running = 0
+
+    current_streak = 0
+    index = len(parsed_days) - 1
+    if parsed_days[index][0] == today and parsed_days[index][1] == 0:
+        index -= 1
+
+    while index >= 0 and parsed_days[index][1] > 0:
+        current_streak += 1
+        index -= 1
+
+    return current_streak, longest_streak, last_contribution_date
+
+
 def main() -> None:
     query = """
     query($login: String!) {
@@ -89,6 +126,12 @@ def main() -> None:
         contributionsCollection {
           contributionCalendar {
             totalContributions
+            weeks {
+              contributionDays {
+                date
+                contributionCount
+              }
+            }
           }
         }
       }
@@ -107,7 +150,14 @@ def main() -> None:
         stars = sum(repo["stargazerCount"] for repo in repos)
         repo_count = user["repositories"]["totalCount"]
         followers = user["followers"]["totalCount"]
-        contribs = user["contributionsCollection"]["contributionCalendar"]["totalContributions"]
+        contribution_calendar = user["contributionsCollection"]["contributionCalendar"]
+        contribs = contribution_calendar["totalContributions"]
+
+        contribution_days = []
+        for week in contribution_calendar["weeks"]:
+            contribution_days.extend(week["contributionDays"])
+
+        current_streak, longest_streak, last_contribution_date = calculate_streaks(contribution_days)
 
         lang_repo_counts = {}
         for repo in repos:
@@ -129,6 +179,12 @@ def main() -> None:
         ]
 
         languages_rows = [(f"{idx + 1}. {lang}", f"{count} repos") for idx, (lang, count) in enumerate(top_languages)]
+        streak_rows = [
+            ("Current streak", f"{current_streak} days"),
+            ("Longest streak", f"{longest_streak} days"),
+            ("Contributions (year)", str(contribs)),
+            ("Last contribution", last_contribution_date),
+        ]
     except Exception as err:  # noqa: BLE001
         error_message = str(err)
         summary_rows = [
@@ -144,12 +200,19 @@ def main() -> None:
             ("3. Data unavailable", "0 repos"),
             ("4. Data unavailable", "0 repos"),
         ]
+        streak_rows = [
+            ("Current streak", "n/a"),
+            ("Longest streak", "n/a"),
+            ("Contributions (year)", "n/a"),
+            ("Last contribution", "n/a"),
+        ]
     while len(languages_rows) < 4:
         languages_rows.append((f"{len(languages_rows) + 1}. -", "0 repos"))
 
     generated_at = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC")
     summary_rows.append(("Updated", generated_at))
     languages_rows.append(("Updated", generated_at))
+    streak_rows.append(("Updated", generated_at))
 
     os.makedirs("assets", exist_ok=True)
     with open("assets/github-stats.svg", "w", encoding="utf-8") as file:
@@ -158,10 +221,13 @@ def main() -> None:
     with open("assets/github-languages.svg", "w", encoding="utf-8") as file:
         file.write(render_card("Top Languages by Repos", languages_rows, height=200))
 
+    with open("assets/github-streak.svg", "w", encoding="utf-8") as file:
+        file.write(render_card("GitHub Streak", streak_rows, height=200))
+
     if error_message:
         print(f"Generated fallback cards due to API error: {error_message}")
 
-    print("Generated assets/github-stats.svg and assets/github-languages.svg")
+    print("Generated assets/github-stats.svg, assets/github-languages.svg and assets/github-streak.svg")
 
 
 if __name__ == "__main__":
