@@ -58,7 +58,7 @@
   <img src="assets/github-stats.svg" height="165" alt="github-stats"/>
 </p>
 <p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com?user=zacniewski" alt="Streak stats" height="165" />
+  <img src="assets/github-streak.svg" alt="Streak stats" height="165" />
 </p>
 
 ----

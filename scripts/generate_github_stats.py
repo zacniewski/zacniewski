@@ -109,13 +109,16 @@ def main() -> None:
         followers = user["followers"]["totalCount"]
         contribs = user["contributionsCollection"]["contributionCalendar"]["totalContributions"]
 
-        lang_sizes = {}
+        lang_repo_counts = {}
         for repo in repos:
+            repo_languages = set()
             for edge in repo["languages"]["edges"]:
                 lang = edge["node"]["name"]
-                lang_sizes[lang] = lang_sizes.get(lang, 0) + edge["size"]
+                repo_languages.add(lang)
+            for lang in repo_languages:
+                lang_repo_counts[lang] = lang_repo_counts.get(lang, 0) + 1
 
-        top_languages = sorted(lang_sizes.items(), key=lambda x: x[1], reverse=True)[:4]
+        top_languages = sorted(lang_repo_counts.items(), key=lambda x: x[1], reverse=True)[:4]
 
         summary_rows = [
             ("User", user.get("name") or USERNAME),
@@ -125,7 +128,7 @@ def main() -> None:
             ("Contributions (year)", str(contribs)),
         ]
 
-        languages_rows = [(f"{idx + 1}. {lang}", f"{size:,} bytes") for idx, (lang, size) in enumerate(top_languages)]
+        languages_rows = [(f"{idx + 1}. {lang}", f"{count} repos") for idx, (lang, count) in enumerate(top_languages)]
     except Exception as err:  # noqa: BLE001
         error_message = str(err)
         summary_rows = [
@@ -136,13 +139,13 @@ def main() -> None:
             ("Contributions (year)", "n/a"),
         ]
         languages_rows = [
-            ("1. Data unavailable", "0 bytes"),
-            ("2. Data unavailable", "0 bytes"),
-            ("3. Data unavailable", "0 bytes"),
-            ("4. Data unavailable", "0 bytes"),
+            ("1. Data unavailable", "0 repos"),
+            ("2. Data unavailable", "0 repos"),
+            ("3. Data unavailable", "0 repos"),
+            ("4. Data unavailable", "0 repos"),
         ]
     while len(languages_rows) < 4:
-        languages_rows.append((f"{len(languages_rows) + 1}. -", "0 bytes"))
+        languages_rows.append((f"{len(languages_rows) + 1}. -", "0 repos"))
 
     generated_at = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC")
     summary_rows.append(("Updated", generated_at))
@@ -153,7 +156,7 @@ def main() -> None:
         file.write(render_card("GitHub Stats", summary_rows, height=200))
 
     with open("assets/github-languages.svg", "w", encoding="utf-8") as file:
-        file.write(render_card("Top Languages by Size", languages_rows, height=200))
+        file.write(render_card("Top Languages by Repos", languages_rows, height=200))
 
     if error_message:
         print(f"Generated fallback cards due to API error: {error_message}")

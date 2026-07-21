@@ -26,14 +26,20 @@ jobs:
           GITHUB_USERNAME: zacniewski
         run: python scripts/generate_github_stats.py
 
+      - name: Generate streak card
+        env:
+          GITHUB_USERNAME: zacniewski
+        run: |
+          curl -fsSL "https://github-readme-streak-stats.herokuapp.com?user=${GITHUB_USERNAME}" -o assets/github-streak.svg
+
       - name: Commit generated cards
         run: |
-          if git diff --quiet -- assets/github-stats.svg assets/github-languages.svg; then
+          if git diff --quiet -- assets/github-stats.svg assets/github-languages.svg assets/github-streak.svg; then
             echo "No changes to commit"
             exit 0
           fi
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add assets/github-stats.svg assets/github-languages.svg
+          git add assets/github-stats.svg assets/github-languages.svg assets/github-streak.svg
           git commit -m "chore: update generated github profile stats"
           git push
