@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+ #!/usr/bin/env python3
 
 import json
 import os
@@ -43,26 +43,34 @@ def escape_xml(text: str) -> str:
 
 
 def render_card(title: str, rows: list[tuple[str, str]], width: int = 460, height: int = 170) -> str:
-    line_start = 68
+    card_margin = 8
+    inner_width = width - card_margin * 2
+    inner_height = height - card_margin * 2
+    line_start = card_margin + 68
     line_step = 26
     row_svg = []
 
     for i, (label, value) in enumerate(rows):
         y = line_start + i * line_step
         row_svg.append(
-            f'<text x="24" y="{y}" font-size="18" fill="#374151">{escape_xml(label)}</text>'
-            f'<text x="{width - 24}" y="{y}" font-size="18" text-anchor="end" fill="#111827">{escape_xml(value)}</text>'
+            f'<text x="{card_margin + 24}" y="{y}" font-size="18" fill="#374151">{escape_xml(label)}</text>'
+            f'<text x="{width - card_margin - 24}" y="{y}" font-size="18" text-anchor="end" fill="#111827">{escape_xml(value)}</text>'
         )
 
     return f"""<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"{width}\" height=\"{height}\" viewBox=\"0 0 {width} {height}\" role=\"img\" aria-label=\"{escape_xml(title)}\">
   <defs>
     <linearGradient id=\"bg\" x1=\"0\" y1=\"0\" x2=\"1\" y2=\"1\">
       <stop offset=\"0%\" stop-color=\"#ffffff\"/>
-      <stop offset=\"100%\" stop-color=\"#f3f4f6\"/>
+      <stop offset=\"100%\" stop-color=\"#f8fafc\"/>
     </linearGradient>
+    <filter id=\"cardShadow\" x=\"-20%\" y=\"-20%\" width=\"140%\" height=\"140%\">
+      <feDropShadow dx=\"0\" dy=\"2\" stdDeviation=\"3\" flood-color=\"#111827\" flood-opacity=\"0.14\"/>
+    </filter>
   </defs>
-  <rect width=\"100%\" height=\"100%\" rx=\"14\" fill=\"url(#bg)\" stroke=\"#d1d5db\"/>
-  <text x=\"24\" y=\"38\" font-size=\"18\" font-weight=\"700\" fill=\"#1f2937\">{escape_xml(title)}</text>
+  <rect width=\"100%\" height=\"100%\" fill=\"#f3f4f6\"/>
+  <rect x=\"{card_margin}\" y=\"{card_margin}\" width=\"{inner_width}\" height=\"{inner_height}\" rx=\"16\" fill=\"url(#bg)\" stroke=\"#cbd5e1\" stroke-width=\"1.2\" filter=\"url(#cardShadow)\"/>
+  <text x=\"{card_margin + 24}\" y=\"{card_margin + 38}\" font-size=\"18\" font-weight=\"700\" fill=\"#1f2937\">{escape_xml(title)}</text>
+  <line x1=\"{card_margin + 22}\" y1=\"{card_margin + 48}\" x2=\"{width - card_margin - 22}\" y2=\"{card_margin + 48}\" stroke=\"#e5e7eb\" stroke-width=\"1\"/>
   {''.join(row_svg)}
 </svg>
 """
@@ -175,7 +183,6 @@ def main() -> None:
             ("Public repositories", str(repo_count)),
             ("Total stars", str(stars)),
             ("Followers", str(followers)),
-            ("Contributions (year)", str(contribs)),
         ]
 
         languages_rows = [(f"{idx + 1}. {lang}", f"{count} repos") for idx, (lang, count) in enumerate(top_languages)]
@@ -192,7 +199,6 @@ def main() -> None:
             ("Public repositories", "n/a"),
             ("Total stars", "n/a"),
             ("Followers", "n/a"),
-            ("Contributions (year)", "n/a"),
         ]
         languages_rows = [
             ("1. Data unavailable", "0 repos"),
