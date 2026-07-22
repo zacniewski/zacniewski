@@ -1,0 +1,36 @@
+name: Profile Views Badge
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 */12 * * *"
+
+permissions:
+  contents: write
+
+jobs:
+  update-profile-views:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+
+      - name: Update profile views badge
+        run: python scripts/generate_profile_views_badge.py
+
+      - name: Commit updated badge
+        run: |
+          if git diff --quiet -- assets/profile-views.svg assets/profile-views.json; then
+            echo "No changes to commit"
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/profile-views.svg assets/profile-views.json
+          git commit -m "chore: update profile views badge"
+          git push

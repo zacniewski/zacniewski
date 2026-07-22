@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://komarev.com/ghpvc/?username=zacniewski&label=Profile%20views&color=0e75b6&style=flat" alt="zacniewski" />
+  <img src="assets/profile-views.svg" alt="Profile views" />
   <h1>Hi, I'm Artur – developer and educator from Poland</h1>
 </div>
 
