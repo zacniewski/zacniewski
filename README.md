@@ -69,25 +69,25 @@
 <!--START_SECTION:waka-->
 
 ```txt
-From: 14 February 2026 - To: 31 August 2026
+From: 14 February 2026 - To: 01 September 2026
 
-Total Time: 192 hrs 53 mins
+Total Time: 194 hrs 9 mins
 
-Markdown                   79 hrs 20 mins        ██████████▒░░░░░░░░░░░░░░   41.10 %
-Python                     46 hrs 37 mins        ██████░░░░░░░░░░░░░░░░░░░   24.15 %
-HTML                       19 hrs 21 mins        ██▓░░░░░░░░░░░░░░░░░░░░░░   10.03 %
-YAML                       10 hrs 36 mins        █▒░░░░░░░░░░░░░░░░░░░░░░░   05.50 %
-GitIgnore file             5 hrs 31 mins         ▓░░░░░░░░░░░░░░░░░░░░░░░░   02.86 %
-Text                       4 hrs 31 mins         ▓░░░░░░░░░░░░░░░░░░░░░░░░   02.34 %
-Bash                       4 hrs 19 mins         ▓░░░░░░░░░░░░░░░░░░░░░░░░   02.24 %
-Docker                     4 hrs                 ▓░░░░░░░░░░░░░░░░░░░░░░░░   02.08 %
-SQL                        3 hrs 47 mins         ▒░░░░░░░░░░░░░░░░░░░░░░░░   01.97 %
-JSON                       2 hrs 56 mins         ▒░░░░░░░░░░░░░░░░░░░░░░░░   01.53 %
-Java                       2 hrs 51 mins         ▒░░░░░░░░░░░░░░░░░░░░░░░░   01.48 %
-TOML                       2 hrs 48 mins         ▒░░░░░░░░░░░░░░░░░░░░░░░░   01.46 %
+Markdown                   79 hrs 28 mins        ██████████▒░░░░░░░░░░░░░░   40.91 %
+Python                     47 hrs 16 mins        ██████░░░░░░░░░░░░░░░░░░░   24.33 %
+HTML                       19 hrs 39 mins        ██▓░░░░░░░░░░░░░░░░░░░░░░   10.12 %
+YAML                       10 hrs 36 mins        █▒░░░░░░░░░░░░░░░░░░░░░░░   05.46 %
+GitIgnore file             5 hrs 31 mins         ▓░░░░░░░░░░░░░░░░░░░░░░░░   02.84 %
+Text                       4 hrs 31 mins         ▓░░░░░░░░░░░░░░░░░░░░░░░░   02.33 %
+Bash                       4 hrs 19 mins         ▓░░░░░░░░░░░░░░░░░░░░░░░░   02.23 %
+Docker                     4 hrs                 ▓░░░░░░░░░░░░░░░░░░░░░░░░   02.06 %
+SQL                        3 hrs 47 mins         ▒░░░░░░░░░░░░░░░░░░░░░░░░   01.95 %
+JSON                       2 hrs 56 mins         ▒░░░░░░░░░░░░░░░░░░░░░░░░   01.52 %
+Java                       2 hrs 51 mins         ▒░░░░░░░░░░░░░░░░░░░░░░░░   01.47 %
+TOML                       2 hrs 49 mins         ▒░░░░░░░░░░░░░░░░░░░░░░░░   01.45 %
 JavaScript                 1 hr 32 mins          ▒░░░░░░░░░░░░░░░░░░░░░░░░   00.79 %
+Requirements.txt           58 mins               ░░░░░░░░░░░░░░░░░░░░░░░░░   00.50 %
 .env file                  55 mins               ░░░░░░░░░░░░░░░░░░░░░░░░░   00.48 %
-Requirements.txt           48 mins               ░░░░░░░░░░░░░░░░░░░░░░░░░   00.42 %
 ```
 
 <!--END_SECTION:waka-->
