@@ -69,25 +69,22 @@
 <!--START_SECTION:waka-->
 
 ```txt
-From: 14 February 2026 - To: 31 October 2026
+From: 05 October 2026 - To: 04 November 2026
 
-Total Time: 232 hrs 16 mins
+Total Time: 20 hrs 55 mins
 
-Markdown                   96 hrs 44 mins        ██████████▒░░░░░░░░░░░░░░   41.63 %
-Python                     54 hrs                █████▓░░░░░░░░░░░░░░░░░░░   23.23 %
-HTML                       22 hrs 54 mins        ██▒░░░░░░░░░░░░░░░░░░░░░░   09.86 %
-YAML                       11 hrs 20 mins        █▒░░░░░░░░░░░░░░░░░░░░░░░   04.88 %
-GitIgnore file             7 hrs 36 mins         ▓░░░░░░░░░░░░░░░░░░░░░░░░   03.28 %
-Text                       6 hrs 47 mins         ▓░░░░░░░░░░░░░░░░░░░░░░░░   02.92 %
-Java                       6 hrs 13 mins         ▓░░░░░░░░░░░░░░░░░░░░░░░░   02.68 %
-Bash                       4 hrs 54 mins         ▓░░░░░░░░░░░░░░░░░░░░░░░░   02.11 %
-Docker                     4 hrs                 ▒░░░░░░░░░░░░░░░░░░░░░░░░   01.73 %
-SQL                        3 hrs 47 mins         ▒░░░░░░░░░░░░░░░░░░░░░░░░   01.63 %
-TOML                       3 hrs 43 mins         ▒░░░░░░░░░░░░░░░░░░░░░░░░   01.60 %
-JSON                       3 hrs 12 mins         ▒░░░░░░░░░░░░░░░░░░░░░░░░   01.38 %
-JavaScript                 1 hr 38 mins          ▒░░░░░░░░░░░░░░░░░░░░░░░░   00.71 %
-.env file                  1 hr 7 mins           ░░░░░░░░░░░░░░░░░░░░░░░░░   00.48 %
-Requirements.txt           1 hr 4 mins           ░░░░░░░░░░░░░░░░░░░░░░░░░   00.46 %
+Markdown           11 hrs 36 mins        ██████████████░░░░░░░░░░░   55.42 %
+Java               3 hrs 1 min           ███▓░░░░░░░░░░░░░░░░░░░░░   14.45 %
+HTML               2 hrs 16 mins         ██▓░░░░░░░░░░░░░░░░░░░░░░   10.83 %
+GitIgnore file     1 hr 8 mins           █▒░░░░░░░░░░░░░░░░░░░░░░░   05.44 %
+Python             1 hr 5 mins           █▒░░░░░░░░░░░░░░░░░░░░░░░   05.22 %
+Text               57 mins               █░░░░░░░░░░░░░░░░░░░░░░░░   04.55 %
+TOML               16 mins               ▒░░░░░░░░░░░░░░░░░░░░░░░░   01.33 %
+YAML               14 mins               ▒░░░░░░░░░░░░░░░░░░░░░░░░   01.13 %
+JSON               7 mins                ░░░░░░░░░░░░░░░░░░░░░░░░░   00.63 %
+Requirements.txt   5 mins                ░░░░░░░░░░░░░░░░░░░░░░░░░   00.47 %
+Image (svg)        4 mins                ░░░░░░░░░░░░░░░░░░░░░░░░░   00.34 %
+JavaScript         2 mins                ░░░░░░░░░░░░░░░░░░░░░░░░░   00.19 %
 ```
 
 <!--END_SECTION:waka-->
